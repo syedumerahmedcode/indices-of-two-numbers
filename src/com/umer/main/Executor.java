@@ -18,45 +18,33 @@ public class Executor {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
         int[] result = twoSumIndicesFinder.findIndices(nums, target);
-        if (result.length < 1) {
-            System.out.println("No two corresponding indices found.");
-        } else {
-            System.out.println("Indices: " + result[0] + ", " + result[1]);
-        }
+        displayResult(result);
 
         target = 22;
         result = twoSumIndicesFinder.findIndices(nums, target);
-        if (result.length < 1) {
-            System.out.println("No two corresponding indices found.");
-        } else {
-            System.out.println("Indices: " + result[0] + ", " + result[1]);
-        }
+        displayResult(result);
 
         target = 21;
         result = twoSumIndicesFinder.findIndices(nums, target);
-        if (result.length < 1) {
-            System.out.println("No two corresponding indices found.");
-        } else {
-            System.out.println("Indices: " + result[0] + ", " + result[1]);
-        }
+        displayResult(result);
 
         int[] negativeNums = { -2, 7, 11, 15 };
         target = 5;
         result = twoSumIndicesFinder.findIndices(negativeNums, target);
-        if (result.length < 1) {
-            System.out.println("No two corresponding indices found.");
-        } else {
-            System.out.println("Indices: " + result[0] + ", " + result[1]);
-        }
+        displayResult(result);
 
         int[] duplicateNums = { 2, 7, 7, 11, 15 };
         target = 14;
         result = twoSumIndicesFinder.findIndices(duplicateNums, target);
+        displayResult(result);
+
+    }
+
+    private static void displayResult(int[] result) {
         if (result.length < 1) {
             System.out.println("No two corresponding indices found.");
         } else {
             System.out.println("Indices: " + result[0] + ", " + result[1]);
         }
-
     }
 }
