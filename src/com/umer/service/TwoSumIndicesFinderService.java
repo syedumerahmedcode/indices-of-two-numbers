@@ -13,7 +13,7 @@ public class TwoSumIndicesFinderService {
             }
             complementIndexMap.put(numbersToCheck[index], index);
         }
-        throw new IllegalArgumentException("No two sum solution found.");
+        return new int[0];
     }
 
 }

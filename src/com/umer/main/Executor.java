@@ -18,14 +18,25 @@ public class Executor {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
         int[] result = twoSumIndicesFinder.findIndices(nums, target);
-        System.out.println("Indices: " + result[0] + ", " + result[1]);
+        if (result.length < 1) {
+            System.out.println("No two corresponding indices found.");
+        } else {
+            System.out.println("Indices: " + result[0] + ", " + result[1]);
+        }
 
         target = 22;
         result = twoSumIndicesFinder.findIndices(nums, target);
-        System.out.println("Indices: " + result[0] + ", " + result[1]);
+        if (result.length < 1) {
+            System.out.println("No two corresponding indices found.");
+        } else {
+            System.out.println("Indices: " + result[0] + ", " + result[1]);
+        }
 
         target = 21;
         result = twoSumIndicesFinder.findIndices(nums, target);
+        if (result.length < 1) {
+            System.out.println("No two corresponding indices found.");
+        }
 
     }
 }
