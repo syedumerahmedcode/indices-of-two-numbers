@@ -1,17 +1,25 @@
-## Getting Started
+## Objective
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given an array of integers `nums` and an integer `target`, it should return the indices of the two numbers such that they add up to target. Each input is guaranteed to have exactly one solution, and the same element is not used twice.
 
-## Folder Structure
+For Example
 
-The workspace contains two folders by default, where:
+```java
+Input
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+nums = [2, 7, 11, 15]
+target = 9
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Output
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+[0, 1]
+```
+
+## Explanation
+
+Please watch the explanation here
+
+> https://www.youtube.com/watch?v=HTx9SLqf0UY
 
 ## Dependency Management
 
