@@ -36,6 +36,14 @@ Please watch the explanation here
 
 In case no indices are found which collectively form the target sum, a suitable message is returned.
 
+## Technologies Used
+
+- Java 11
+
+## Commands
+
+To compile and test, please checkout the project on your local machine and run _main method_ in the Executor class.
+
 ## Contribution
 
 Feature requests, issues, pull requests and questions are welcome.
