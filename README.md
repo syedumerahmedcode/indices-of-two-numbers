@@ -31,7 +31,6 @@ Please watch the explanation here
 
 - **Minimum input size:** The samllest input size that the project can handle correctly is 2.
 - **Negative number:** The project works correctly with negative numbers.
-
 - **Duplicate number:** The project also works correctly with duplicate numbers which form the target sum.
 
 In case no indices are found which collectively form the target sum, a suitable message is returned.
