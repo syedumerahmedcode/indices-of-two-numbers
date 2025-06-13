@@ -18,6 +18,7 @@ public class Executor {
          */
 
         TwoSumIndicesFinderService twoSumIndicesFinder = new TwoSumIndicesFinderService();
+        // Happy path
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
         int[] result = twoSumIndicesFinder.findIndices(nums, target);
@@ -31,12 +32,14 @@ public class Executor {
         displayResult(result, target);
         giveGapInConsole();
 
+        // Failure case
         target = 21;
         result = twoSumIndicesFinder.findIndices(nums, target);
         displayContentsOfInputArray(nums);
         displayResult(result, target);
         giveGapInConsole();
 
+        // Edge case
         int[] negativeNums = { -2, 7, 11, 15 };
         target = 5;
         result = twoSumIndicesFinder.findIndices(negativeNums, target);
@@ -44,6 +47,7 @@ public class Executor {
         displayResult(result, target);
         giveGapInConsole();
 
+        // Edge case
         int[] duplicateNums = { 2, 7, 7, 11, 15 };
         target = 14;
         result = twoSumIndicesFinder.findIndices(duplicateNums, target);

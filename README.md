@@ -1,6 +1,6 @@
 ## Objective
 
-Given an array of integers `nums` and an integer `target`, it should return the indices of the two numbers such that they add up to target. Each input is guaranteed to have exactly one solution, and the same element is not used twice.
+Given an array of integers `nums` and an integer `target`, it should return the indices of the two numbers such that they add up to target. Here, the assumption is that each input is guaranteed to have exactly one solution.
 
 For Example
 
