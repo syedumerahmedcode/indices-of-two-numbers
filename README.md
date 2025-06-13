@@ -19,7 +19,7 @@ Output
 
 Please watch the explanation here
 
-> [Explanation of the logic]https://www.youtube.com/watch?v=8bBpQOzALzU
+> [Explanation on Youtube](https://www.youtube.com/watch?v=8bBpQOzALzU)
 
 ## Complexity Analysis
 
