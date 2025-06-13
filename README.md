@@ -30,8 +30,6 @@ Output
 
 ## Explanation
 
-Please watch the explanation here
-
 > [Explanation on Youtube](https://www.youtube.com/watch?v=8bBpQOzALzU)
 
 ## Complexity Analysis
