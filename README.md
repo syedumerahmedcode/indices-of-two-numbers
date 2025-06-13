@@ -1,3 +1,16 @@
+# indices-of-two-numbers
+
+## Table of content
+
+- [Objective](#objective)
+- [Explanation](#explanation)
+- [Complexity Analysis](#complexity-analysis)
+- [Edge Cases](#edge-cases)
+- [Technologies Used](#technologies-used)
+- [Commands](#commands)
+- [Contribution](#contribution)
+- [Contact Information](#contact-information)
+
 ## Objective
 
 Given an array of integers `nums` and an integer `target`, it should return the indices of the two numbers such that they add up to target. Here, the assumption is that each input is guaranteed to have exactly one solution.
