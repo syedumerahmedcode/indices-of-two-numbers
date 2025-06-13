@@ -36,6 +36,10 @@ Please watch the explanation here
 
 In case no indices are found which collectively form the target sum, a suitable message is returned.
 
-## Dependency Management
+## Contribution
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Feature requests, issues, pull requests and questions are welcome.
+
+## Contact Information
+
+How to reach me? At [github specific gmail account](mailto:syedumerahmedcode@gmail.com?subject=[GitHub]%20Hello%20from%20Github).
